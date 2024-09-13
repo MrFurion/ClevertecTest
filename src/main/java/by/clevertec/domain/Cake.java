@@ -17,4 +17,5 @@ public class Cake {
     private String title;
     private CakeType cakeType;
     private OffsetDateTime expiredPeriod;
+
 }

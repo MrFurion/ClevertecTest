@@ -47,4 +47,5 @@ public class CakeService {
     public void delete(UUID cakeId) {
         cakeRepository.delete(cakeId);
     }
+
 }

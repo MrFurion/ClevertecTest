@@ -19,4 +19,5 @@ public class CakeEntity {
     private String title;
     private CakeType cakeType;
     private OffsetDateTime expiredPeriod;
+
 }

@@ -44,6 +44,7 @@ public class CakeController {
 
     @DeleteMapping("/api/del/{id}")
     public ResponseEntity<String> delete(@PathVariable("id") UUID id){
+
         try {
             cakeService.delete(id);
             return ResponseEntity.noContent().build();
