@@ -8,7 +8,6 @@ import java.util.UUID;
 
 public class TestData {
 
-
     public static CakeEntity generateCakeEntity(){
         return new CakeEntity()
                 .setId(UUID.randomUUID())

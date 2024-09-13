@@ -8,5 +8,6 @@ public class CakeNotFoundException extends RuntimeException {
     }
     public static CakeNotFoundException getException (UUID cakeId){
        return new CakeNotFoundException("Not found id %s");
+
     }
 }

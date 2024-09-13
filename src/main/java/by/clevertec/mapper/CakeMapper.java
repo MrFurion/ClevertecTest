@@ -13,4 +13,5 @@ public interface CakeMapper {
     Cake toDomains(CakeEntity cakeEntity);
     
     CakeEntity toEntity(Cake cake);
+
 }

@@ -1,5 +1,4 @@
 package by.clevertec.common.helper;
-
 import java.time.OffsetDateTime;
 
 class DataSupplierTest implements DataSupplier{
